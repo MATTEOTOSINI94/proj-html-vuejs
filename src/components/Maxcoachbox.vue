@@ -3,14 +3,14 @@
     <div class="box-Max-Coach">
       <div class="row">
          <div class="col"></div>
-          <div class="col-5 box-info " >
+          <div class="col-4 box-info " >
               <h6>EVRITHING IN MAXCOACH</h6>
               <h1>Learn About our <span class="style-work">Work Colture</span> at MaxCoach</h1>
               <p>Spend Time to Visit Our WebSite or Head Office and discover our current courses enrollement procedure and reagistration deadLine. 
                  We're opening new classes every beginnin of each Month</p>
                  <p>Have question? <a href="#" class="style-free">Free Guide</a></p>
           </div>
-          <div class="col-4 box-view">
+          <div class="col-5 box-view">
               <div>
               <img src="../assets/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
               </div>

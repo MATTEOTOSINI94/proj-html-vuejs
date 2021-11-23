@@ -1,6 +1,6 @@
 <template>
-   <ul class=" d-flex lista-nav">
-        <li v-for="el in dati" :key="el.i">{{el}}</li>
+   <ul class=" d-flex lista-nav m-0">
+        <li v-for="el in dati" :key="el.i"><a href="">{{el}}</a></li>
     </ul>
 </template>
 

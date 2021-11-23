@@ -70,7 +70,7 @@ export default {
   .shape-lines{
     position: absolute;
     right: 7px;
-    bottom: -24px;
+    bottom: -50px;
     width: 20%;
     z-index: -1;
   }

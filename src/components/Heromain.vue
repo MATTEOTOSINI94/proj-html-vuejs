@@ -20,7 +20,7 @@ export default {
     background: url(../assets/home-3-hero-bg.jpg);
     background-position: center center;
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     position: relative;
 
     .box-bg-content{
