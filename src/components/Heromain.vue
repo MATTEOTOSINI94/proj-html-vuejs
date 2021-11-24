@@ -42,6 +42,14 @@ export default {
             border-radius: 5px;
             background-color: white;
             font-size: 10px;
+             background: linear-gradient(to left, white 50%, #1fad95 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+        }
+
+        button:hover{
+            background-position: left;
+            color: white;
         }
     }
 }

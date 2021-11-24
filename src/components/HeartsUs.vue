@@ -11,9 +11,13 @@
                  <p><a href="#" class="style-free">View All </a></p>
           </div>
           <div class="col-5 box-view">
-              <div>
-              <img class="img-style" src="../assets/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-              </div>
+              <!-- prima carta profile -->
+                <ProfileCard v-for="profilo,i in profili " :key="i" :persone="profilo"></ProfileCard>
+               
+                
+                
+                <!-- fine prima carta profile -->
+              
               
               <div class="lines-box">
                   
@@ -28,8 +32,57 @@
 </template>
 
 <script>
+import ProfileCard from "./ProfileCard.vue"
+
 export default {
-    name:"InfoQuality"
+    name:"InfoQuality",
+
+    components:{
+        ProfileCard
+
+
+    },
+
+
+    data(){
+
+        return{
+
+            
+            profili:[
+                {
+                    name:"Mandlay Pandor",
+                    descrizione:"Professional team of specialists and passionate mentors at reach",
+                    need:"I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+                    jobs:"It specialists",
+                    img: require("../assets/testimonial-avata-01.jpg"),
+                    classe:"box-mandlay",
+                    i:0
+                },
+                 {
+                    name:"Mina Hollace",
+                    descrizione:"High level of efficiency and scientific teaching methods",
+                    need:"I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.",
+                    jobs:"Freelancer",
+                    img: require("../assets/testimonial-avata-02.jpg"),
+                    classe:"box-mina",
+                    i:1
+                },
+                 {
+                    name:"Ludic Dubble",
+                    descrizione:"The MaxCoach team works really hard to ensure high level of quality",
+                    need:"I am happy with their arrangement of lessons and subjects. They reflect a scientific  investigation into effective methods to adopt.",
+                    jobs:"/Private Tutor",
+                    img: require("../assets/testimonial-avata-03.jpg"),
+                    classe:"box-ludic",
+                    i:2
+                }
+            ]
+        }
+
+    },
+
+
 
 }
 </script>
@@ -41,6 +94,10 @@ export default {
 
 .img-style{
     width: 100%;
+}
+
+.box-view{
+    position: relative;
 }
 
 
@@ -72,5 +129,11 @@ export default {
         font-size: 10px;
     }
 }
+
+
+
+
+
+
 </style>
 

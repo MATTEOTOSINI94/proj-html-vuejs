@@ -29,7 +29,8 @@ export default {
 <style lang="scss" scoped>
 
 
-.box-img{
+.card-box{
+    height: 100%;
 
 
     img{
@@ -38,9 +39,15 @@ export default {
 
     .box-text{
         background-color: white;
-        border-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
         min-height: 150px;
         padding: 20px;
+        transition: 0.7s;
 
         h6{
            
@@ -64,7 +71,15 @@ export default {
             font-size: 11px;
         }
     }
+
+    .box-text:hover{
+        background-color: #1fad95;;
+        color: white;
+
+        strong{color: white;}
+    }
 }
+
 
 </style>
 

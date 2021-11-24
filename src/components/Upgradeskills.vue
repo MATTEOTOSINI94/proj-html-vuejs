@@ -28,6 +28,7 @@
                 MaxCoach accompany learners in every stage of learning.
               </p>
               <a href="#">Download free guidebook</a>
+              
           </div>
          
           <div class="col"></div>

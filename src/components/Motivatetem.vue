@@ -21,6 +21,10 @@
               <h1>We’re Here To <span class="style-work">Transform</span>You!</h1>
               <p>As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best.</p>
                  <p><a href="#" class="style-free">View All </a></p>
+
+                 <div class="btn-box">  
+                <button class="btn-style">Download</button>
+              </div>
           </div>
         
           <div class="col"></div>
@@ -93,8 +97,6 @@ export default {
         font-weight: 100;
     }
 
-    
-
     h6{
         font-size: 13px;
     }
@@ -104,6 +106,24 @@ export default {
     }
     p{
         font-size: 10px;
+    }
+
+     .btn-box{
+      padding-top: 10px;
+      .btn-style{
+        border: 0;
+      padding: 7px 30px;
+      border-radius: 8px;
+      color: white;
+      background: linear-gradient(to left, #1fad95 50%, rgb(228, 228, 228) 50%) right;
+      background-size: 200%;
+      transition: .5s ease-out;
+      }
+
+      .btn-style:hover{
+        background-position: left;
+        color: black;
+      }
     }
 }
 </style>

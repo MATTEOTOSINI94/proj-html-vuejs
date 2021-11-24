@@ -11,7 +11,10 @@
       </div>
 
       <div class="inptu-container ms-auto">
-        <input type="text">
+        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+           <input class="input-text" type="text" placeholder="Search..">
+        
       </div>
       </div>
 
@@ -68,14 +71,19 @@ export default {
       width: 40%;
       list-style: none;
       padding: 0;
+      gap: 20px;
 
       li{
-        padding: 0 10px;
+        min-width: fit-content;
         font-size: 13px;
 
         a{
          text-decoration: none;
          color: black;
+        }
+
+        a:hover{
+          color: #1fad95;
         }
       }
     }
@@ -92,10 +100,23 @@ export default {
     }
 
     .input-container{
+      
       width: 40%;
-     text-align: end;
+      text-align: end;
     }
+
+    .input-text{
+      
+      padding-right: 20px;
+    }
+
+    .fa-user-circle-o{
+      padding:0 10px;
+    }
+   
     
 
   }
+
+  
 </style>
