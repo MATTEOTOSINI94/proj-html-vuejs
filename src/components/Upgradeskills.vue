@@ -98,8 +98,7 @@ export default {
         font-weight: 100;
     }
 
-    
-
+  
     h6{
         font-size: 13px;
     }
@@ -108,7 +107,15 @@ export default {
         font-style: bold;
     }
     p{
-        font-size: 10px;
+        font-size: 13px;
+    }
+
+    a{
+      font-weight: bold;
+      font-size: 12px;
+      color: black;
+      text-decoration: none;
+      border-bottom: 1px solid grey;
     }
 }
 

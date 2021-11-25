@@ -37,14 +37,16 @@ export default {
 
         button{
             margin-top: 8px;
-            padding: 10px 25px;
+            padding: 15px 35px;
             border: 0;
             border-radius: 5px;
             background-color: white;
-            font-size: 10px;
+            font-size: 12px;
              background: linear-gradient(to left, white 50%, #1fad95 50%) right;
             background-size: 200%;
             transition: .5s ease-out;
+            color: #1fad95;
+            font-weight: bold;
         }
 
         button:hover{

@@ -31,6 +31,7 @@ export default {
 
 .card-box{
     height: 100%;
+ 
 
 
     img{
@@ -79,6 +80,8 @@ export default {
         strong{color: white;}
     }
 }
+
+   
 
 
 </style>

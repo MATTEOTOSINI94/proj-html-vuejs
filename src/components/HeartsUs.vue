@@ -12,12 +12,12 @@
           </div>
           <div class="col-5 box-view">
               <!-- prima carta profile -->
-                <ProfileCard v-for="profilo,i in profili " :key="i" :persone="profilo"></ProfileCard>
+                <ProfileCard v-for="profilo,indice in profili " :key="indice" :persone="profilo" :inde="indice" @click="indiceActive=indice"></ProfileCard>
                
                 
                 
                 <!-- fine prima carta profile -->
-              
+             
               
               <div class="lines-box">
                   
@@ -46,8 +46,11 @@ export default {
 
     data(){
 
-        return{
+        
 
+        
+        return{
+            
             
             profili:[
                 {
@@ -80,7 +83,11 @@ export default {
             ]
         }
 
+        
+
     },
+
+   
 
 
 
@@ -126,8 +133,13 @@ export default {
         font-style: bold;
     }
     p{
-        font-size: 10px;
+        font-size: 13px;
     }
+}
+
+.style-free{
+    font-weight: bold;
+    color: black;
 }
 
 

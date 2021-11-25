@@ -66,7 +66,7 @@ export default {
         font-style: bold;
     }
     p{
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 

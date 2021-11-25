@@ -20,7 +20,7 @@
               <h6>EVRITHING IN MAXCOACH</h6>
               <h1>We’re Here To <span class="style-work">Transform</span>You!</h1>
               <p>As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best.</p>
-                 <p><a href="#" class="style-free">View All </a></p>
+                
 
                  <div class="btn-box">  
                 <button class="btn-style">Download</button>
@@ -105,7 +105,7 @@ export default {
         font-style: bold;
     }
     p{
-        font-size: 10px;
+        font-size: 13px;
     }
 
      .btn-box{

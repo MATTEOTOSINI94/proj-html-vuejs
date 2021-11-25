@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+ 
 
    .box-slider{
     margin-top: 100px;
@@ -45,7 +46,7 @@ export default {
 
 
       .style-work{
-        color: #1fad95;
+        color: #1fad95 ;
         font-weight: 100;
     }
    

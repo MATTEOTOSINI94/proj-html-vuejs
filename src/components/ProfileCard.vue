@@ -1,5 +1,5 @@
 <template>
-  <div class="container-box-profile"  @click="persone.i = 0" :class="filterSlider(persone.i)">
+  <div class="container-box-profile" v-bind="activeSliders"  @click="persone.i = activeSliders" :class="filterSlider(persone.i)">
                     <div class="box-profile">
                       <div class="box-profile-style">
                           <div class="descrition"><h5>{{persone.descrizione}} </h5></div>
@@ -27,12 +27,18 @@ export default {
         persone:Object,
     },
 
+    data(){
+        return{
+            activeSliders:0,
+            }
+    },
+
         methods:{
 
         filterSlider(i){
             if(i === 0){
                 return "box-mandlay"
-                
+  
             }
 
             else if(i===1){
@@ -46,7 +52,7 @@ export default {
 
     }
 
-  
+   
 
 }
 </script>
@@ -106,8 +112,9 @@ export default {
 position: absolute;
     overflow: hidden;
     opacity: 0.5;
-    bottom: 0px;
+    bottom: 50px;
     width: 100%;
+    border: 1px solid rgb(151, 151, 151);
 }
 
 .box-mandlay{
@@ -121,7 +128,8 @@ position: absolute;
 position: absolute;
     overflow: hidden;
     opacity: 0.5;
-    top: 130px;
-    width: 100%;}
+    top: 100px;
+    width: 100%;
+    border: 1px solid rgb(151, 151, 151);}
 
 </style>

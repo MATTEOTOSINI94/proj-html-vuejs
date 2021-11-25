@@ -24,4 +24,10 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
 @import "~font-awesome/css/font-awesome.css";
+
+
+#app{
+ 
+  font-family:Arial, Helvetica, sans-serif;
+}
 </style>
